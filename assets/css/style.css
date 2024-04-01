@@ -1,0 +1,361 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background:#fff;
+    
+    overflow-x: hidden;
+}
+@font-face {
+    font-family:prgg;
+    src: url(../font/SingleDay-Regular.ttf);
+}
+/* --------------------------------------headr-sec-------------- */
+.bg{
+    background-image: url(../images/bg.png);
+    background-position: center; 
+
+    background-size: cover;
+    width: 100%;
+    height:90vw;
+    position: relative;
+}
+
+  .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    padding-top: 6vw;
+
+}
+.leter{
+    width: 35vw;
+    
+}
+.snd{
+    width: 30vw;
+}
+.txt{
+    text-align: center;
+}
+/* ----------------------bnr-sec--------------- */
+.bnr-sec{
+
+    /* align-items: center; */
+}
+.left-side img{
+width: 35vw;
+transform: translateY(-10vw);
+}
+.right-side img{
+    width: 35vw;
+    transform: translateY(-10vw);
+}
+
+.fst .prg-1{
+    font-size: 3vw;
+    color: #000;
+    font-family: prgg;
+    text-align: center;
+    word-spacing: 1vw;
+    margin-top: 8vw;
+}
+.se .prg-2{
+    font-size: 3vw;
+    color: #000;
+    font-family: prgg;
+    text-align: center;
+    width: 100%;
+
+    
+
+    
+}
+
+.se  .prg-2 img{
+    width: 4vw;
+    transform: translateY(1vw);
+    
+}
+.th .prg-3{
+    font-size: 3vw;
+    color: #000;
+    font-family: prgg;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.th .prg-3 img{
+    width: 4vw;
+}
+/* -------lnks------------ */
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    margin-top: 6vw;
+}
+.links .btn img{
+    width: 17.5vw;
+    transform: translateX(5vw);
+    margin-top: 1.6vw;
+    transition: .5s;
+}
+.links .btn img:hover{
+    /* transform:translateY(-.1vw); */
+}
+.links .icn img{
+    width: 4.5vw;
+    transition: .5s;
+}
+.links .icn img:hover{
+    transform:translateY(-.5vw); 
+}
+.links .icn-2 img{
+    width: 5vw;
+    transition: .5s;
+}
+.links .icn-2 img:hover{
+    transform:translateY(-.5vw); 
+}
+.end{
+    font-size: 2.5vw;
+    color: #000;
+    font-family: prgg;
+    text-align: center;
+    width: 100%;
+    margin-top: 20%;  
+}
+.c1{
+    position: absolute;
+    width: 34vw;
+    left: 0;
+    top: 15%;
+}
+.c2{
+    position: absolute;
+    width: 34vw;
+    right: 0;
+    top: 15%;
+}
+/* ----------------meda query--------------------- */
+
+
+
+@media (max-width:800px)
+{
+
+}
+
+
+
+
+
+@media (max-width:600px) {
+    .bg{
+        background-image: url(../images/bg.png);
+        background-position: center; 
+    
+        background-size: cover;
+        width: 100%;
+        height: 130vw;
+        overflow-x: hidden;
+    }
+    
+      .text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+        padding-top: 13vw;
+    
+    }
+    .leter{
+        width: 60vw;
+        
+    }
+    .snd{
+        width: 45vw;
+    }
+    .txt{
+        text-align: center;
+    }
+    .centr .prg-1{
+        font-size: 6vw;
+        color: #000;
+        font-family: prgg;
+        text-align: center;
+        word-spacing: 1vw;
+        margin-top: 9vw;
+    }
+    .centr .prg-2{
+        font-size: 4vw;
+        color: #000;
+        font-family: prgg;
+        text-align: center;
+        width: 100%;
+        
+    
+        
+    
+        
+    }
+    
+    .centr .prg-2 img{
+        width: 4vw;
+        transform: translateY(1vw);
+        
+    }
+    .centr .prg-3{
+        font-size: 4vw;
+        color: #000;
+        font-family: prgg;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .centr .prg-3 img{
+        width: 4vw;
+    }
+    
+    .links .btn img{
+        width: 32vw;
+        transform: translateX(5vw);
+        margin-top: 1.6vw;
+        transition: .5s;
+    }
+    .links .icn img{
+        width: 9vw;
+        transition: .5s;
+    }
+    .links .icn-2 img{
+        width: 10vw;
+        transition: .5s;
+    }
+    .end{
+        font-size: 3.9vw;
+        color: #000;
+        font-family: prgg;
+        text-align: center;
+        width: 100%;
+        margin-top: 7%;
+        
+    }
+    .left-side img{
+        width: 30vw;
+        transform: translateY(60vw);
+        }
+        .right-side img{
+            width: 30vw;
+            transform: translateY(62vw);
+        }
+        
+        .c1{
+            position: absolute;
+            width: 46.5vw;
+            left: 0;
+            top: 100%;
+        }
+        .c2{
+            position: absolute;
+            width: 47.8vw;
+            right: 0;
+            top: 100%;
+        } 
+        .fst .prg-1{
+            font-size: 6vw;
+            color: #000;
+            font-family: prgg;
+            text-align: center;
+            word-spacing: 1vw;
+            margin-top: 8vw;
+        }
+        .se .prg-2{
+            font-size: 6vw;
+            color: #000;
+            font-family: prgg;
+            text-align: center;
+            width: 100%;
+        
+            
+        
+            
+        }
+        
+        .se  .prg-2 img{
+            width: 6vw;
+            transform: translateY(1vw);
+            
+        }
+        .th .prg-3{
+            font-size: 6vw;
+            color: #000;
+            font-family: prgg;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .th .prg-3 img{
+            width: 6vw;
+        }
+    
+
+}
+@media (max-width:430px) {
+    .bg{
+        background-image: url(../images/bg.png);
+        background-position: center; 
+    
+        background-size: cover;
+        width: 100%;
+        height: 135vw;
+        overflow-x: hidden;
+    }
+}
+@media (max-width:390px) {
+    .bg{
+        background-image: url(../images/bg.png);
+        background-position: center; 
+    
+        background-size: cover;
+        width: 100%;
+        height: 170vw;
+        overflow-x: hidden;
+    }
+    .end{
+        font-size: 5vw;
+        color: #000;
+        font-family: prgg;
+        text-align: center;
+        width: 100%;
+        margin-top: 20%;
+        
+    }
+    .c1{
+        position: absolute;
+        width: 46vw;
+        left: 0;
+        top: 100%;
+    }
+    .c2{
+        position: absolute;
+        width: 47vw;
+        right: 0;
+        top: 100%;
+    } 
+}
